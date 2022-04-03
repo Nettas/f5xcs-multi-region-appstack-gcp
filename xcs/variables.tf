@@ -5,9 +5,7 @@ variable "projectPrefix" {}
 variable "url" {}
 variable "api_p12_file" {}
 variable "region_one" {}
-variable "zone_one_a" {}
-variable "zone_one_b" {}
-variable "zone_one_c" {}
+variable "zone_one" {}
 variable "region_two" {}
 variable "zone_two" {}
 # variable "region_three" {}

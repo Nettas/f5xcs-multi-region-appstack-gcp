@@ -26,8 +26,7 @@ resource "volterra_gcp_vpc_site" "site1" {
   voltstack_cluster {
     gcp_certified_hw = "gcp-byol-voltstack-combo"
 
-    gcp_zone_names = [var.zone_one_a, var.zone_one_b, var.zone_one_c]
-    # gcp_zone_names = ["us-west1-a, us-west1-b, us-west1-c"]
+    gcp_zone_names = [var.zone_one]
 
     node_number = "3"
 

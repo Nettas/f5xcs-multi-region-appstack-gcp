@@ -19,20 +19,10 @@ variable "region_one" {
   description = "REQUIRED: GCP Region: "
   default     = "us-east4"
 }
-variable "zone_one_a" {
+variable "zone_one" {
   type        = string
   description = "REQUIRED: GCP Region: "
   default     = "us-east4-a"
-}
-variable "zone_one_b" {
-  type        = string
-  description = "REQUIRED: GCP Region: "
-  default     = "us-east4-b"
-}
-variable "zone_one_c" {
-  type        = string
-  description = "REQUIRED: GCP Region: "
-  default     = "us-east4-c"
 }
 variable "region_two" {
   type        = string
