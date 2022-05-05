@@ -20,9 +20,10 @@ module "xcs" {
   url          = var.api_url
   api_p12_file = var.api_p12_file
   region_one   = var.region_one
-  zone_one_a   = var.zone_one_a
-  zone_one_b   = var.zone_one_b
-  zone_one_c   = var.zone_one_c
+  zone_one     = var.zone_one
+  # zone_one_a   = var.zone_one_a
+  # zone_one_b   = var.zone_one_b
+  # zone_one_c   = var.zone_one_c
   region_two   = var.region_two
   zone_two     = var.zone_two
   # region_three     = var.region_three
